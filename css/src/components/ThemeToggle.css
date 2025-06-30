@@ -1,0 +1,22 @@
+/* ThemeToggle.css */
+.theme-toggle {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+body.dark-mode .navbar,
+body.dark-mode .footer {
+  background-color: #1a1a1a;
+}

@@ -1,0 +1,23 @@
+bk-fc-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Navbar.module.css
+│   │   ├── ContactForm.jsx
+│   │   ├── ContactForm.css
+│   │   ├── Footer.jsx
+│   │   ├── Footer.css
+│   │   ├── ScrollToTop.jsx
+│   │   ├── ScrollToTop.css
+│   │   ├── ThemeToggle.jsx
+│   │   ├── ThemeToggle.css
+│   │   └── AnimationReveal.jsx
+│   │   └── AnimationReveal.css
+│   ├── App.jsx
+│   ├── App.module.css
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md

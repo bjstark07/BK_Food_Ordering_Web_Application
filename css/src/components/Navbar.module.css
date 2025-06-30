@@ -1,0 +1,50 @@
+.navBtn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+}
+
+.navBtn label {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #d35400;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-check:checked ~ .navbar {
+  transform: translateX(0);
+}
+
+.navItems {
+  list-style: none;
+  padding: 0;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 1rem;
+  display: block;
+  transition: color 0.3s;
+}
+
+.navLink:hover,
+.active {
+  color: #f39c12;
+}
